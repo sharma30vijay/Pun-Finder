@@ -1,0 +1,23 @@
+@relation 'Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1'
+
+@attribute Text string
+@attribute class-att {0,1}
+
+@data
+
+"Always trust a glue salesman. They tend to stick to their word",0
+"Reading while sunbathing makes you well red",0
+"The lights were too bright at the Chinese restaurant so the manager decided to dim sum",0
+"You can tune a guitar, but you can't tuna fish. Unless of course, you play bass",0
+"Two silk worms had a race. They ended up in a tie",0
+"It’s amazing how eagles catch their prey, they must be really talon-ted",0
+"Birds are grouchy in the morning because their bills are over dew",0
+"An elephant's opinion carries a lot of weight",0
+"A horse is a very stable kind of animal",0
+"A bicycle can't stand on its own because it is two-tired",0
+"A hangover is the wrath of grapes",0
+"Corduroy pillows are making headlines",0
+"Is a book on voyeurism a peeping tome?",0
+"Dancing cheek-to-cheek is really a form of floor play",0
+"Sea captains don't like crew cuts",0
+"Santa's helpers are subordinate clauses",0

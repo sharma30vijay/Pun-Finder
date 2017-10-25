@@ -1,0 +1,88 @@
+@relation 'Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1'
+
+@attribute Text string
+@attribute class-att {0,1}
+
+@data
+
+"Always trust a glue salesman. They tend to stick to their word",0
+"Reading while sunbathing makes you well red",0
+"The delicatessen is sandwiched, if you'll pardon the pun, between two stores",1
+"Thou hast not done, For I have more",0
+"Choclate Milk shake",0
+"What the hell bird is doing",1
+"I wasn't originally going to get a brain transplant, but then I changed my mind",0
+"I don't think she is no anymore",0
+"It’s amazing how eagles catch their prey, they must be really talon-ted",0
+"Birds are grouchy in the morning because their bills are over dew",0
+"An elephant's opinion carries a lot of weight",0
+"A horse is a very stable kind of animal",0
+"A bicycle can't stand on its own because it is two-tired",0
+"Dancing cheek-to-cheek is really a form of floor play",0
+"Sea captains don't like crew cuts",0
+"Santa's helpers are subordinate clauses",0
+"A hangover is the wrath of grapes",0
+"I built this with my bear hands",0
+"This is my job, it's soda pressing",0
+"You hang around, I will go on head",0
+"Feeling so hungry",1
+"Will you help me with the english homework",1
+"The Grand Canyon is viewed by thousands of tourists every year",1
+"want to be here every month",1
+"Last night, I ate dinner at a restaurant with my brother and sister",1
+"I took my dog to the park. Who did you take there",1
+"Perhaps the decline of this country has already started",1
+"The crew paved the entire stretch of highway",1
+"Arnold and Juan play cricket every evening",1
+"People who live in glass houses should not throw stones",1
+"My old car is always breaking down",1
+"Some birds sleep by day and hunt by night",1
+"The zoo is open daily from 9 a.m. to 5 p.m.",1
+"He has been working there ever since he went there for a holiday.",1
+"I am not going to the party tonight",1
+"The salesman was helping the customer when the thief came into the store",1
+"She was shy as a child, but now she is very outgoing",1
+"New York is a small city. It is not important that this fact is untrue",1
+"They are going to have completed the project before the deadline",1
+"Jeff would never pay for drinks when we went out together with our friends",1
+"Always trust a glue salesman. They tend to stick to their word",0
+"Reading while sunbathing makes you well red",0
+"The delicatessen is sandwiched, if you'll pardon the pun, between two stores",1
+"Thou hast not done, For I have more",0
+"Choclate Milk shake",0
+"What the hell bird is doing",1
+"I wasn't originally going to get a brain transplant, but then I changed my mind",0
+"I don't think she is no anymore",0
+"It’s amazing how eagles catch their prey, they must be really talon-ted",0
+"Birds are grouchy in the morning because their bills are over dew",0
+"An elephant's opinion carries a lot of weight",0
+"A horse is a very stable kind of animal",0
+"A bicycle can't stand on its own because it is two-tired",0
+"Dancing cheek-to-cheek is really a form of floor play",0
+"Sea captains don't like crew cuts",0
+"Santa's helpers are subordinate clauses",0
+"A hangover is the wrath of grapes",0
+"I built this with my bear hands",0
+"This is my job, it's soda pressing",0
+"You hang around, I will go on head",0
+"Feeling so hungry",1
+"Will you help me with the english homework",1
+"The Grand Canyon is viewed by thousands of tourists every year",1
+"want to be here every month",1
+"Last night, I ate dinner at a restaurant with my brother and sister",1
+"I took my dog to the park. Who did you take there",1
+"Perhaps the decline of this country has already started",1
+"The crew paved the entire stretch of highway",1
+"Arnold and Juan play cricket every evening",1
+"People who live in glass houses should not throw stones",1
+"My old car is always breaking down",1
+"Some birds sleep by day and hunt by night",1
+"The zoo is open daily from 9 a.m. to 5 p.m.",1
+"He has been working there ever since he went there for a holiday.",1
+"I am not going to the party tonight",1
+"The salesman was helping the customer when the thief came into the store",1
+"She was shy as a child, but now she is very outgoing",1
+"New York is a small city. It is not important that this fact is untrue",1
+"They are going to have completed the project before the deadline",1
+"Jeff would never pay for drinks when we went out together with our friends",1
+"sell crazies somewhere else we are all stocked up here",0

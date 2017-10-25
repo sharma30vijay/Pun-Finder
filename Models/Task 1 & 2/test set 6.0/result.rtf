@@ -1,0 +1,1149 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.15063}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 === Model information ===\par
+\par
+Filename:     puns3model.model\par
+Scheme:       weka.classifiers.meta.FilteredClassifier -F "weka.filters.unsupervised.attribute.StringToWordVector -R 1 -W 1000 -prune-rate -1.0 -C -T -I -N 0 -stemmer weka.core.stemmers.IteratedLovinsStemmer -stopwords-handler weka.core.stopwords.Null -M 1 -tokenizer \\"weka.core.tokenizers.WordTokenizer -delimiters \\\\\\" \\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\\\'\\\\\\\\\\\\\\"()?!\\\\\\"\\"" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2\par
+Relation:     Reuters-21578 Grain ModApte Train-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1-weka.filters.unsupervised.attribute.ClassAssigner-Clast\par
+Attributes:   2\par
+              Text\par
+              class-att\par
+\par
+=== Classifier model ===\par
+\par
+FilteredClassifier using weka.classifiers.trees.J48 -C 0.25 -M 2 on data filtered through weka.filters.unsupervised.attribute.StringToWordVector -R 1 -W 1000 -prune-rate -1.0 -C -T -I -N 0 -stemmer weka.core.stemmers.IteratedLovinsStemmer -stopwords-handler weka.core.stopwords.Null -M 1 -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \\" {{\field{\*\fldinst{HYPERLINK "\\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\'\\\\\\\\\\\\"()?!\\"}}{\fldrslt{\\\\r\\\\n\\\\t.,;:\\\\\\'\\\\\\"()?!\\\ul0\cf0}}}}\f0\fs22 ""\par
+\par
+Filtered Header\par
+@relation 'Reuters-21578 Grain ModApte Train-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1-weka.filters.unsupervised.attribute.ClassAssigner-Clast-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N0-stemmerweka.core.stemmers.IteratedLovinsStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \\" {{\field{\*\fldinst{HYPERLINK "\\\\\\\\r\\\\\\\\n\\\\\\\\t.,;:\\\\\\\\\\\\'\\\\\\\\\\\\"()?!\\"'"}}{\fldrslt{\\\\r\\\\n\\\\t.,;:\\\\\\'\\\\\\"()?!\\"'\ul0\cf0}}}}\f0\fs22\par
+\par
+@attribute class-att \{0,1\}\par
+@attribute - numeric\par
+@attribute -- numeric\par
+@attribute 12-step numeric\par
+@attribute 210 numeric\par
+@attribute A numeric\par
+@attribute An numeric\par
+@attribute Be numeric\par
+@attribute He numeric\par
+@attribute I numeric\par
+@attribute If numeric\par
+@attribute In numeric\par
+@attribute Is numeric\par
+@attribute It numeric\par
+@attribute No numeric\par
+@attribute OK numeric\par
+@attribute On numeric\par
+@attribute We numeric\par
+@attribute a numeric\par
+@attribute a-salt numeric\par
+@attribute about numeric\par
+@attribute actr numeric\par
+@attribute acupunctur numeric\par
+@attribute after numeric\par
+@attribute agon numeric\par
+@attribute ain numeric\par
+@attribute al numeric\par
+@attribute alw numeric\par
+@attribute an numeric\par
+@attribute and numeric\par
+@attribute angr numeric\par
+@attribute anim numeric\par
+@attribute anon numeric\par
+@attribute another numeric\par
+@attribute ant numeric\par
+@attribute apart numeric\par
+@attribute ar numeric\par
+@attribute arrest numeric\par
+@attribute arriv numeric\par
+@attribute arrow numeric\par
+@attribute as numeric\par
+@attribute at numeric\par
+@attribute ath numeric\par
+@attribute attent numeric\par
+@attribute austr numeric\par
+@attribute av numeric\par
+@attribute aw numeric\par
+@attribute b-neg numeric\par
+@attribute ba numeric\par
+@attribute back numeric\par
+@attribute bad numeric\par
+@attribute bait numeric\par
+@attribute baker numeric\par
+@attribute bal numeric\par
+@attribute ban numeric\par
+@attribute banan numeric\par
+@attribute bar numeric\par
+@attribute bartender numeric\par
+@attribute bat numeric\par
+@attribute bath numeric\par
+@attribute bay numeric\par
+@attribute be numeric\par
+@attribute beat numeric\par
+@attribute becaus numeric\par
+@attribute becom numeric\par
+@attribute bee-hive-iour numeric\par
+@attribute been numeric\par
+@attribute befor numeric\par
+@attribute being numeric\par
+@attribute belief numeric\par
+@attribute belt numeric\par
+@attribute best numeric\par
+@attribute bicycl numeric\par
+@attribute big numeric\par
+@attribute bil numeric\par
+@attribute bird numeric\par
+@attribute birth numeric\par
+@attribute bl numeric\par
+@attribute blank numeric\par
+@attribute blood numeric\par
+@attribute blown numeric\par
+@attribute boil numeric\par
+@attribute book numeric\par
+@attribute bottom numeric\par
+@attribute bought numeric\par
+@attribute bowl numeric\par
+@attribute br numeric\par
+@attribute bread numeric\par
+@attribute breath numeric\par
+@attribute breeder numeric\par
+@attribute bright numeric\par
+@attribute bril numeric\par
+@attribute brok numeric\par
+@attribute buck numeric\par
+@attribute budg numeric\par
+@attribute bun numeric\par
+@attribute bus numeric\par
+@attribute but numeric\par
+@attribute by numeric\par
+@attribute ca numeric\par
+@attribute cal numeric\par
+@attribute calendar numeric\par
+@attribute camel numeric\par
+@attribute camoufl numeric\par
+@attribute can numeric\par
+@attribute can\rquote t numeric\par
+@attribute captain numeric\par
+@attribute car numeric\par
+@attribute caramel numeric\par
+@attribute card numeric\par
+@attribute cartoon numeric\par
+@attribute castl numeric\par
+@attribute cat numeric\par
+@attribute cel numeric\par
+@attribute centr numeric\par
+@attribute ceremon numeric\par
+@attribute ch numeric\par
+@attribute charg numeric\par
+@attribute cheek-to-cheek numeric\par
+@attribute cheetah numeric\par
+@attribute chick numeric\par
+@attribute chin numeric\par
+@attribute chocol numeric\par
+@attribute chord numeric\par
+@attribute christm numeric\par
+@attribute cit numeric\par
+@attribute claus numeric\par
+@attribute clock numeric\par
+@attribute cloth numeric\par
+@attribute clown numeric\par
+@attribute co numeric\par
+@attribute coat numeric\par
+@attribute colon numeric\par
+@attribute color numeric\par
+@attribute com numeric\par
+@attribute compl numeric\par
+@attribute conceiv numeric\par
+@attribute condim numeric\par
+@attribute condom numeric\par
+@attribute construc numeric\par
+@attribute cordur numeric\par
+@attribute corn numeric\par
+@attribute corrals\rquote  numeric\par
+@attribute could numeric\par
+@attribute couldn numeric\par
+@attribute count numeric\par
+@attribute coup numeric\par
+@attribute cour numeric\par
+@attribute court numeric\par
+@attribute cow numeric\par
+@attribute cr numeric\par
+@attribute crash numeric\par
+@attribute cream numeric\par
+@attribute creat numeric\par
+@attribute credit numeric\par
+@attribute crew numeric\par
+@attribute cur numeric\par
+@attribute cut numeric\par
+@attribute d numeric\par
+@attribute danc numeric\par
+@attribute day numeric\par
+@attribute de numeric\par
+@attribute de-calf-in numeric\par
+@attribute death numeric\par
+@attribute debt numeric\par
+@attribute dec numeric\par
+@attribute deer numeric\par
+@attribute def numeric\par
+@attribute defeat numeric\par
+@attribute democr numeric\par
+@attribute den numeric\par
+@attribute dent numeric\par
+@attribute deodor numeric\par
+@attribute devast numeric\par
+@attribute develop numeric\par
+@attribute dew numeric\par
+@attribute di numeric\par
+@attribute did numeric\par
+@attribute dijon numeric\par
+@attribute dim numeric\par
+@attribute disc numeric\par
+@attribute do numeric\par
+@attribute dockyard numeric\par
+@attribute doct numeric\par
+@attribute docum numeric\par
+@attribute dog numeric\par
+@attribute don numeric\par
+@attribute donk numeric\par
+@attribute door numeric\par
+@attribute dov numeric\par
+@attribute down numeric\par
+@attribute dr numeric\par
+@attribute drawn numeric\par
+@attribute dream numeric\par
+@attribute dril numeric\par
+@attribute drop numeric\par
+@attribute duck numeric\par
+@attribute dy numeric\par
+@attribute eagl numeric\par
+@attribute ear numeric\par
+@attribute earth numeric\par
+@attribute eat numeric\par
+@attribute eg numeric\par
+@attribute egot numeric\par
+@attribute egypt numeric\par
+@attribute eleph numeric\par
+@attribute employer numeric\par
+@attribute en numeric\par
+@attribute energ numeric\par
+@attribute envelop numeric\par
+@attribute escap numeric\par
+@attribute ev numeric\par
+@attribute ever numeric\par
+@attribute exorc numeric\par
+@attribute expel numeric\par
+@attribute exper numeric\par
+@attribute ey numeric\par
+@attribute fact numeric\par
+@attribute fal numeric\par
+@attribute famil numeric\par
+@attribute farmer numeric\par
+@attribute favor numeric\par
+@attribute feel numeric\par
+@attribute fel numeric\par
+@attribute felt numeric\par
+@attribute feud numeric\par
+@attribute figur numeric\par
+@attribute fin numeric\par
+@attribute find numeric\par
+@attribute finger numeric\par
+@attribute first numeric\par
+@attribute fish numeric\par
+@attribute fl numeric\par
+@attribute flat numeric\par
+@attribute flew numeric\par
+@attribute flock numeric\par
+@attribute floor numeric\par
+@attribute flop numeric\par
+@attribute flow numeric\par
+@attribute fold numeric\par
+@attribute food numeric\par
+@attribute foot numeric\par
+@attribute footwear numeric\par
+@attribute for numeric\par
+@attribute form numeric\par
+@attribute fortune-teller numeric\par
+@attribute fountain numeric\par
+@attribute four numeric\par
+@attribute fr numeric\par
+@attribute franc numeric\par
+@attribute freew numeric\par
+@attribute freud numeric\par
+@attribute from numeric\par
+@attribute fruit numeric\par
+@attribute gard numeric\par
+@attribute gav numeric\par
+@attribute ge numeric\par
+@attribute geometer numeric\par
+@attribute giant numeric\par
+@attribute giants\rquote  numeric\par
+@attribute giv numeric\par
+@attribute glad numeric\par
+@attribute glass-grind numeric\par
+@attribute go numeric\par
+@attribute going numeric\par
+@attribute gold numeric\par
+@attribute good numeric\par
+@attribute gossip numeric\par
+@attribute got numeric\par
+@attribute gr numeric\par
+@attribute grammar numeric\par
+@attribute grap numeric\par
+@attribute grasshopper numeric\par
+@attribute great numeric\par
+@attribute greatest numeric\par
+@attribute grenad numeric\par
+@attribute grouch numeric\par
+@attribute group numeric\par
+@attribute guerril numeric\par
+@attribute guitar numeric\par
+@attribute guy numeric\par
+@attribute had numeric\par
+@attribute hair numeric\par
+@attribute hand numeric\par
+@attribute handl numeric\par
+@attribute hang numeric\par
+@attribute hangover numeric\par
+@attribute hard numeric\par
+@attribute hav numeric\par
+@attribute he numeric\par
+@attribute headl numeric\par
+@attribute hear numeric\par
+@attribute heard numeric\par
+@attribute held numeric\par
+@attribute helper numeric\par
+@attribute hen numeric\par
+@attribute hi numeric\par
+@attribute high numeric\par
+@attribute himself numeric\par
+@attribute hiv numeric\par
+@attribute hom numeric\par
+@attribute hon numeric\par
+@attribute honest numeric\par
+@attribute hor numeric\par
+@attribute hospit numeric\par
+@attribute hour numeric\par
+@attribute hous numeric\par
+@attribute how numeric\par
+@attribute hump numeric\par
+@attribute humphr numeric\par
+@attribute hungr numeric\par
+@attribute if numeric\par
+@attribute imag numeric\par
+@attribute imprison numeric\par
+@attribute in numeric\par
+@attribute inclus numeric\par
+@attribute ind numeric\par
+@attribute insect numeric\par
+@attribute institut numeric\par
+@attribute int numeric\par
+@attribute inver numeric\par
+@attribute is numeric\par
+@attribute it numeric\par
+@attribute it\rquote  numeric\par
+@attribute i\rquote m numeric\par
+@attribute jab numeric\par
+@attribute jam numeric\par
+@attribute jester numeric\par
+@attribute job numeric\par
+@attribute just numeric\par
+@attribute juvenil numeric\par
+@attribute kept numeric\par
+@attribute key numeric\par
+@attribute kick numeric\par
+@attribute kit numeric\par
+@attribute kitch numeric\par
+@attribute knead-to-know numeric\par
+@attribute knob numeric\par
+@attribute knot numeric\par
+@attribute know numeric\par
+@attribute known numeric\par
+@attribute lan numeric\par
+@attribute land numeric\par
+@attribute langu numeric\par
+@attribute larg numeric\par
+@attribute larger numeric\par
+@attribute last numeric\par
+@attribute lat numeric\par
+@attribute lif numeric\par
+@attribute light numeric\par
+@attribute lightn numeric\par
+@attribute lik numeric\par
+@attribute linoleum numeric\par
+@attribute list numeric\par
+@attribute litter numeric\par
+@attribute ll numeric\par
+@attribute loc numeric\par
+@attribute log numeric\par
+@attribute look numeric\par
+@attribute lot numeric\par
+@attribute lov numeric\par
+@attribute lug numeric\par
+@attribute mach numeric\par
+@attribute mad numeric\par
+@attribute mak numeric\par
+@attribute mal numeric\par
+@attribute man numeric\par
+@attribute manager numeric\par
+@attribute manor numeric\par
+@attribute mar numeric\par
+@attribute marathon numeric\par
+@attribute matter numeric\par
+@attribute me numeric\par
+@attribute mean numeric\par
+@attribute med numeric\par
+@attribute memor numeric\par
+@attribute meticl numeric\par
+@attribute midg numeric\par
+@attribute might numeric\par
+@attribute min numeric\par
+@attribute mind numeric\par
+@attribute mineshaft numeric\par
+@attribute minor numeric\par
+@attribute mon numeric\par
+@attribute mor numeric\par
+@attribute morn numeric\par
+@attribute mot numeric\par
+@attribute mother numeric\par
+@attribute mourn numeric\par
+@attribute mous numeric\par
+@attribute mouth numeric\par
+@attribute much numeric\par
+@attribute mussel numeric\par
+@attribute mustard numeric\par
+@attribute my numeric\par
+@attribute nam numeric\par
+@attribute natur numeric\par
+@attribute near numeric\par
+@attribute need numeric\par
+@attribute neigh numeric\par
+@attribute network numeric\par
+@attribute never numeric\par
+@attribute new numeric\par
+@attribute nic numeric\par
+@attribute nick numeric\par
+@attribute no numeric\par
+@attribute non-proph numeric\par
+@attribute not numeric\par
+@attribute number numeric\par
+@attribute ob numeric\par
+@attribute occ numeric\par
+@attribute of numeric\par
+@attribute off numeric\par
+@attribute oft numeric\par
+@attribute on numeric\par
+@attribute onc numeric\par
+@attribute onl numeric\par
+@attribute open numeric\par
+@attribute opportun numeric\par
+@attribute or numeric\par
+@attribute other numeric\par
+@attribute otter numeric\par
+@attribute out numeric\par
+@attribute over numeric\par
+@attribute own numeric\par
+@attribute pac numeric\par
+@attribute pant numeric\par
+@attribute part numeric\par
+@attribute passenger numeric\par
+@attribute pay numeric\par
+@attribute peacock numeric\par
+@attribute peanut numeric\par
+@attribute peep numeric\par
+@attribute person numeric\par
+@attribute pessim numeric\par
+@attribute photograph numeric\par
+@attribute phy numeric\par
+@attribute pian numeric\par
+@attribute pigm numeric\par
+@attribute pillow numeric\par
+@attribute pl numeric\par
+@attribute plant numeric\par
+@attribute plateau numeric\par
+@attribute platter numeric\par
+@attribute playground numeric\par
+@attribute po numeric\par
+@attribute point numeric\par
+@attribute pointer numeric\par
+@attribute pointsetter numeric\par
+@attribute polit numeric\par
+@attribute poor numeric\par
+@attribute post numeric\par
+@attribute poultr numeric\par
+@attribute pr numeric\par
+@attribute pract numeric\par
+@attribute prison numeric\par
+@attribute protect numeric\par
+@attribute pun numeric\par
+@attribute pup numeric\par
+@attribute push numeric\par
+@attribute put numeric\par
+@attribute quot numeric\par
+@attribute ra numeric\par
+@attribute rabid numeric\par
+@attribute rac numeric\par
+@attribute re numeric\par
+@attribute read numeric\par
+@attribute real numeric\par
+@attribute recept numeric\par
+@attribute recip numeric\par
+@attribute recover numeric\par
+@attribute remember numeric\par
+@attribute rep numeric\par
+@attribute reserv numeric\par
+@attribute resid numeric\par
+@attribute restaur numeric\par
+@attribute result numeric\par
+@attribute return numeric\par
+@attribute rig numeric\par
+@attribute riv numeric\par
+@attribute river numeric\par
+@attribute road numeric\par
+@attribute rol numeric\par
+@attribute roof numeric\par
+@attribute rumor numeric\par
+@attribute runner numeric\par
+@attribute s numeric\par
+@attribute saf numeric\par
+@attribute said numeric\par
+@attribute sam numeric\par
+@attribute sant numeric\par
+@attribute santa\rquote  numeric\par
+@attribute saw numeric\par
+@attribute say numeric\par
+@attribute sayer numeric\par
+@attribute school numeric\par
+@attribute scient numeric\par
+@attribute scratch numeric\par
+@attribute se numeric\par
+@attribute seafood numeric\par
+@attribute secon numeric\par
+@attribute seen numeric\par
+@attribute sen numeric\par
+@attribute setter numeric\par
+@attribute sev numeric\par
+@attribute sh numeric\par
+@attribute shelf numeric\par
+@attribute ship numeric\par
+@attribute shirt numeric\par
+@attribute shock numeric\par
+@attribute shoot numeric\par
+@attribute shop numeric\par
+@attribute shotgun numeric\par
+@attribute should numeric\par
+@attribute show numeric\par
+@attribute sick numeric\par
+@attribute sign numeric\par
+@attribute silk numeric\par
+@attribute skunk numeric\par
+@attribute sl numeric\par
+@attribute slip numeric\par
+@attribute smal numeric\par
+@attribute smel numeric\par
+@attribute snail numeric\par
+@attribute so numeric\par
+@attribute som numeric\par
+@attribute someon numeric\par
+@attribute song numeric\par
+@attribute speak numeric\par
+@attribute spectacl numeric\par
+@attribute st numeric\par
+@attribute stag numeric\par
+@attribute stand numeric\par
+@attribute stank numeric\par
+@attribute stat numeric\par
+@attribute stil numeric\par
+@attribute stom numeric\par
+@attribute stop numeric\par
+@attribute strand numeric\par
+@attribute struck numeric\par
+@attribute struggl numeric\par
+@attribute stuck numeric\par
+@attribute stud numeric\par
+@attribute su numeric\par
+@attribute subord numeric\par
+@attribute succ numeric\par
+@attribute suffer numeric\par
+@attribute sum numeric\par
+@attribute summer numeric\par
+@attribute sunbath numeric\par
+@attribute swarm numeric\par
+@attribute syndrom numeric\par
+@attribute t numeric\par
+@attribute tail numeric\par
+@attribute taint numeric\par
+@attribute tak numeric\par
+@attribute talker numeric\par
+@attribute tavern numeric\par
+@attribute teeth numeric\par
+@attribute tender numeric\par
+@attribute term numeric\par
+@attribute test numeric\par
+@attribute th numeric\par
+@attribute than numeric\par
+@attribute that numeric\par
+@attribute their numeric\par
+@attribute then numeric\par
+@attribute ther numeric\par
+@attribute thing numeric\par
+@attribute thought numeric\par
+@attribute thr numeric\par
+@attribute throw numeric\par
+@attribute thrown numeric\par
+@attribute ti numeric\par
+@attribute tim numeric\par
+@attribute tir numeric\par
+@attribute to numeric\par
+@attribute together numeric\par
+@attribute told numeric\par
+@attribute tom numeric\par
+@attribute tooth numeric\par
+@attribute tr numeric\par
+@attribute trad numeric\par
+@attribute traum numeric\par
+@attribute triumph numeric\par
+@attribute tru numeric\par
+@attribute trunk numeric\par
+@attribute tun numeric\par
+@attribute tw numeric\par
+@attribute two-tir numeric\par
+@attribute typ numeric\par
+@attribute un numeric\par
+@attribute under numeric\par
+@attribute up numeric\par
+@attribute upholst numeric\par
+@attribute us numeric\par
+@attribute usu numeric\par
+@attribute ve numeric\par
+@attribute ver numeric\par
+@attribute vot numeric\par
+@attribute voyeur numeric\par
+@attribute vu numeric\par
+@attribute vultur numeric\par
+@attribute wa numeric\par
+@attribute wait numeric\par
+@attribute walk numeric\par
+@attribute want numeric\par
+@attribute warfar numeric\par
+@attribute warn numeric\par
+@attribute wasn numeric\par
+@attribute watch numeric\par
+@attribute way numeric\par
+@attribute we numeric\par
+@attribute wear numeric\par
+@attribute wed numeric\par
+@attribute week numeric\par
+@attribute wel numeric\par
+@attribute well-r numeric\par
+@attribute went numeric\par
+@attribute wer numeric\par
+@attribute wh numeric\par
+@attribute what numeric\par
+@attribute when numeric\par
+@attribute whil numeric\par
+@attribute whit numeric\par
+@attribute wif numeric\par
+@attribute wil numeric\par
+@attribute window numeric\par
+@attribute winter numeric\par
+@attribute with numeric\par
+@attribute without numeric\par
+@attribute woman numeric\par
+@attribute wordpl numeric\par
+@attribute work numeric\par
+@attribute worker numeric\par
+@attribute worm numeric\par
+@attribute would numeric\par
+@attribute wrath numeric\par
+@attribute writ numeric\par
+@attribute you numeric\par
+@attribute your numeric\par
+@attribute zo numeric\par
+@attribute 00 numeric\par
+@attribute 2 numeric\par
+@attribute 30 numeric\par
+@attribute 6 numeric\par
+@attribute My numeric\par
+@attribute Of numeric\par
+@attribute alread numeric\par
+@attribute am numeric\par
+@attribute amazon numeric\par
+@attribute amer numeric\par
+@attribute any numeric\par
+@attribute anyth numeric\par
+@attribute appear numeric\par
+@attribute assur numeric\par
+@attribute bacon numeric\par
+@attribute bark numeric\par
+@attribute beach numeric\par
+@attribute bed numeric\par
+@attribute begin numeric\par
+@attribute birmingham numeric\par
+@attribute bod numeric\par
+@attribute boy numeric\par
+@attribute broom numeric\par
+@attribute brother numeric\par
+@attribute cam numeric\par
+@attribute caus numeric\par
+@attribute championship numeric\par
+@attribute coff numeric\par
+@attribute compan numeric\par
+@attribute confer numeric\par
+@attribute const numeric\par
+@attribute cook numeric\par
+@attribute countr numeric\par
+@attribute cry numeric\par
+@attribute dead numeric\par
+@attribute deal numeric\par
+@attribute decl numeric\par
+@attribute deep numeric\par
+@attribute del numeric\par
+@attribute depart numeric\par
+@attribute dinner numeric\par
+@attribute doubt numeric\par
+@attribute drink numeric\par
+@attribute dut numeric\par
+@attribute engl numeric\par
+@attribute entir numeric\par
+@attribute everyd numeric\par
+@attribute everyth numeric\par
+@attribute exact numeric\par
+@attribute excel numeric\par
+@attribute execut numeric\par
+@attribute expect numeric\par
+@attribute father numeric\par
+@attribute fern numeric\par
+@attribute film numeric\par
+@attribute flight numeric\par
+@attribute fly numeric\par
+@attribute forever numeric\par
+@attribute found numeric\par
+@attribute frog numeric\par
+@attribute frug numeric\par
+@attribute girlfr numeric\par
+@attribute gl numeric\par
+@attribute glob numeric\par
+@attribute grandchildr numeric\par
+@attribute grandp numeric\par
+@attribute ha numeric\par
+@attribute har numeric\par
+@attribute health numeric\par
+@attribute heart numeric\par
+@attribute help numeric\par
+@attribute him numeric\par
+@attribute homework numeric\par
+@attribute ic numeric\par
+@attribute il numeric\par
+@attribute inv numeric\par
+@attribute je numeric\par
+@attribute jigsaw numeric\par
+@attribute jil numeric\par
+@attribute john numeric\par
+@attribute ju numeric\par
+@attribute jump numeric\par
+@attribute le numeric\par
+@attribute leav numeric\par
+@attribute libr numeric\par
+@attribute liv numeric\par
+@attribute london numeric\par
+@attribute lost numeric\par
+@attribute loud numeric\par
+@attribute loyalt numeric\par
+@attribute lunch numeric\par
+@attribute m numeric\par
+@attribute mag numeric\par
+@attribute manag numeric\par
+@attribute marvel numeric\par
+@attribute match numeric\par
+@attribute math numeric\par
+@attribute meal numeric\par
+@attribute mec numeric\par
+@attribute mi numeric\par
+@attribute mik numeric\par
+@attribute minut numeric\par
+@attribute mum numeric\par
+@attribute mus numeric\par
+@attribute nast numeric\par
+@attribute next numeric\par
+@attribute noth numeric\par
+@attribute now numeric\par
+@attribute nowh numeric\par
+@attribute nt numeric\par
+@attribute o numeric\par
+@attribute our numeric\par
+@attribute ow numeric\par
+@attribute p numeric\par
+@attribute pa numeric\par
+@attribute paper numeric\par
+@attribute park numeric\par
+@attribute pe numeric\par
+@attribute pen numeric\par
+@attribute peopl numeric\par
+@attribute perform numeric\par
+@attribute perhap numeric\par
+@attribute pi numeric\par
+@attribute pick numeric\par
+@attribute piec numeric\par
+@attribute pil numeric\par
+@attribute pizz numeric\par
+@attribute pol numeric\par
+@attribute pollut numeric\par
+@attribute pon numeric\par
+@attribute potter numeric\par
+@attribute printer numeric\par
+@attribute program numeric\par
+@attribute prom numeric\par
+@attribute pump numeric\par
+@attribute rather numeric\par
+@attribute red numeric\par
+@attribute refriger numeric\par
+@attribute regr numeric\par
+@attribute remind numeric\par
+@attribute ri numeric\par
+@attribute right numeric\par
+@attribute rod numeric\par
+@attribute room numeric\par
+@attribute row numeric\par
+@attribute samanth numeric\par
+@attribute sarah numeric\par
+@attribute saying numeric\par
+@attribute season numeric\par
+@attribute seismograph numeric\par
+@attribute ser numeric\par
+@attribute sharp numeric\par
+@attribute sic numeric\par
+@attribute sinc numeric\par
+@attribute sister numeric\par
+@attribute slow numeric\par
+@attribute sold numeric\par
+@attribute south numeric\par
+@attribute staff numeric\par
+@attribute stair numeric\par
+@attribute start numeric\par
+@attribute stupid numeric\par
+@attribute sud numeric\par
+@attribute supermark numeric\par
+@attribute surpr numeric\par
+@attribute swim numeric\par
+@attribute sword numeric\par
+@attribute talk numeric\par
+@attribute te numeric\par
+@attribute telev numeric\par
+@attribute ten numeric\par
+@attribute thousand numeric\par
+@attribute through numeric\par
+@attribute timbuktu numeric\par
+@attribute took numeric\par
+@attribute toothach numeric\par
+@attribute top numeric\par
+@attribute train numeric\par
+@attribute treat numeric\par
+@attribute trick numeric\par
+@attribute truth numeric\par
+@attribute unusu numeric\par
+@attribute villain numeric\par
+@attribute warm numeric\par
+@attribute wealth numeric\par
+@attribute whack numeric\par
+@attribute win numeric\par
+@attribute witch numeric\par
+@attribute won numeric\par
+@attribute word numeric\par
+@attribute year numeric\par
+@attribute yesterd numeric\par
+\par
+@data\par
+\par
+\par
+Classifier Model\par
+J48 pruned tree\par
+------------------\par
+\par
+A <= 0\par
+|   a <= 0\par
+|   |   t <= 0\par
+|   |   |   ar <= 0\par
+|   |   |   |   on <= 0\par
+|   |   |   |   |   an <= 0\par
+|   |   |   |   |   |   how <= 0\par
+|   |   |   |   |   |   |   - <= 0\par
+|   |   |   |   |   |   |   |   know <= 0: 1 (82.0/21.0)\par
+|   |   |   |   |   |   |   |   know > 0: 0 (2.0)\par
+|   |   |   |   |   |   |   - > 0: 0 (3.0)\par
+|   |   |   |   |   |   how > 0: 0 (3.0)\par
+|   |   |   |   |   an > 0: 0 (6.0/2.0)\par
+|   |   |   |   on > 0\par
+|   |   |   |   |   is <= 0: 0 (8.0/1.0)\par
+|   |   |   |   |   is > 0: 1 (3.0/1.0)\par
+|   |   |   ar > 0: 0 (14.0/3.0)\par
+|   |   t > 0: 0 (7.0/1.0)\par
+|   a > 0\par
+|   |   had <= 0\par
+|   |   |   a <= 0.737388\par
+|   |   |   |   He <= 0\par
+|   |   |   |   |   It <= 0\par
+|   |   |   |   |   |   ther <= 0\par
+|   |   |   |   |   |   |   flight <= 0: 0 (43.0/8.0)\par
+|   |   |   |   |   |   |   flight > 0: 1 (2.0)\par
+|   |   |   |   |   |   ther > 0: 1 (2.0)\par
+|   |   |   |   |   It > 0: 1 (2.0)\par
+|   |   |   |   He > 0: 1 (3.0)\par
+|   |   |   a > 0.737388: 0 (11.0/1.0)\par
+|   |   had > 0: 0 (5.0)\par
+A > 0: 0 (30.0/2.0)\par
+\par
+Number of Leaves  : \tab 17\par
+\par
+Size of the tree : \tab 33\par
+\par
+\par
+=== Re-evaluation on test set ===\par
+\par
+User supplied test set\par
+Relation:     Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1\par
+Instances:     unknown (yet). Reading incrementally\par
+Attributes:   2\par
+\par
+=== Summary ===\par
+\par
+Correctly Classified Instances          30               81.0811 %\par
+Incorrectly Classified Instances         7               18.9189 %\par
+Kappa statistic                          0.6208\par
+Mean absolute error                      0.2951\par
+Root mean squared error                  0.3845\par
+Total Number of Instances               37     \par
+\par
+=== Detailed Accuracy By Class ===\par
+\par
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\par
+                 0.842    0.222    0.800      0.842    0.821      0.622    0.857     0.832     0\par
+                 0.778    0.158    0.824      0.778    0.800      0.622    0.857     0.799     1\par
+Weighted Avg.    0.811    0.191    0.811      0.811    0.811      0.622    0.857     0.816     \par
+\par
+=== Confusion Matrix ===\par
+\par
+  a  b   <-- classified as\par
+ 16  3 |  a = 0\par
+  4 14 |  b = 1\par
+\par
+\par
+=== Re-evaluation on test set ===\par
+\par
+User supplied test set\par
+Relation:     Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1\par
+Instances:     unknown (yet). Reading incrementally\par
+Attributes:   2\par
+\par
+=== Predictions on user test set ===\par
+\par
+    inst#     actual  predicted error prediction\par
+        1        1:0        1:0       0.814 \par
+        2        1:0        2:1   +   0.744 \par
+        3        1:0        1:0       0.814 \par
+        4        1:0        1:0       0.814 \par
+        5        1:0        1:0       0.814 \par
+        6        1:0        1:0       0.814 \par
+        7        1:0        1:0       0.814 \par
+        8        1:0        1:0       1 \par
+        9        1:0        1:0       0.786 \par
+       10        1:0        1:0       0.814 \par
+       11        1:0        1:0       0.933 \par
+       12        1:0        1:0       0.933 \par
+       13        1:0        1:0       0.814 \par
+       14        1:0        1:0       0.857 \par
+       15        1:0        1:0       0.786 \par
+       16        1:0        1:0       0.933 \par
+       17        1:0        2:1   +   0.744 \par
+       18        1:0        2:1   +   0.744 \par
+       19        1:0        1:0       0.875 \par
+       20        2:1        2:1       0.744 \par
+       21        2:1        2:1       0.744 \par
+       22        2:1        2:1       0.744 \par
+       23        2:1        1:0   +   0.814 \par
+       24        2:1        2:1       0.744 \par
+       25        2:1        2:1       0.744 \par
+       26        2:1        2:1       0.744 \par
+       27        2:1        2:1       0.744 \par
+       28        2:1        2:1       0.744 \par
+       29        2:1        2:1       0.744 \par
+       30        2:1        1:0   +   0.814 \par
+       31        2:1        2:1       1 \par
+       32        2:1        2:1       0.744 \par
+       33        2:1        2:1       0.744 \par
+       34        2:1        1:0   +   0.814 \par
+       35        2:1        2:1       1 \par
+       36        2:1        1:0   +   0.786 \par
+       37        2:1        2:1       0.744 \par
+\par
+=== Summary ===\par
+\par
+Correctly Classified Instances          30               81.0811 %\par
+Incorrectly Classified Instances         7               18.9189 %\par
+Kappa statistic                          0.6208\par
+Mean absolute error                      0.2951\par
+Root mean squared error                  0.3845\par
+Total Number of Instances               37     \par
+\par
+=== Detailed Accuracy By Class ===\par
+\par
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\par
+                 0.842    0.222    0.800      0.842    0.821      0.622    0.857     0.832     0\par
+                 0.778    0.158    0.824      0.778    0.800      0.622    0.857     0.799     1\par
+Weighted Avg.    0.811    0.191    0.811      0.811    0.811      0.622    0.857     0.816     \par
+\par
+=== Confusion Matrix ===\par
+\par
+  a  b   <-- classified as\par
+ 16  3 |  a = 0\par
+  4 14 |  b = 1\par
+\par
+\par
+=== Re-evaluation on test set ===\par
+\par
+User supplied test set\par
+Relation:     Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1\par
+Instances:     unknown (yet). Reading incrementally\par
+Attributes:   2\par
+\par
+=== Predictions on user test set ===\par
+\par
+    inst#     actual  predicted error prediction\par
+        1        1:0        1:0       0.814 \par
+        2        1:0        2:1   +   0.744 \par
+        3        1:0        1:0       0.814 \par
+        4        1:0        1:0       0.814 \par
+        5        1:0        1:0       0.814 \par
+        6        1:0        1:0       0.909 \par
+        7        1:0        1:0       0.814 \par
+        8        1:0        1:0       0.814 \par
+        9        1:0        1:0       1 \par
+       10        1:0        1:0       0.786 \par
+       11        1:0        1:0       0.814 \par
+       12        1:0        1:0       0.933 \par
+       13        1:0        1:0       0.933 \par
+       14        1:0        1:0       0.814 \par
+       15        1:0        1:0       0.857 \par
+       16        1:0        1:0       0.786 \par
+       17        1:0        1:0       0.933 \par
+       18        1:0        2:1   +   0.744 \par
+       19        1:0        2:1   +   0.744 \par
+       20        1:0        1:0       0.875 \par
+       21        2:1        2:1       0.744 \par
+       22        2:1        2:1       0.744 \par
+       23        2:1        2:1       0.744 \par
+       24        2:1        2:1       0.744 \par
+       25        2:1        1:0   +   0.814 \par
+       26        2:1        2:1       0.744 \par
+       27        2:1        2:1       0.744 \par
+       28        2:1        2:1       0.744 \par
+       29        2:1        2:1       0.744 \par
+       30        2:1        2:1       0.744 \par
+       31        2:1        2:1       0.744 \par
+       32        2:1        2:1       0.744 \par
+       33        2:1        1:0   +   0.814 \par
+       34        2:1        2:1       1 \par
+       35        2:1        2:1       0.744 \par
+       36        2:1        2:1       0.744 \par
+       37        2:1        1:0   +   0.814 \par
+       38        2:1        2:1       1 \par
+       39        2:1        1:0   +   0.786 \par
+       40        2:1        2:1       0.744 \par
+\par
+=== Summary ===\par
+\par
+Correctly Classified Instances          33               82.5    %\par
+Incorrectly Classified Instances         7               17.5    %\par
+Kappa statistic                          0.65  \par
+Mean absolute error                      0.288 \par
+Root mean squared error                  0.3745\par
+Total Number of Instances               40     \par
+\par
+=== Detailed Accuracy By Class ===\par
+\par
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\par
+                 0.850    0.200    0.810      0.850    0.829      0.651    0.870     0.843     0\par
+                 0.800    0.150    0.842      0.800    0.821      0.651    0.870     0.819     1\par
+Weighted Avg.    0.825    0.175    0.826      0.825    0.825      0.651    0.870     0.831     \par
+\par
+=== Confusion Matrix ===\par
+\par
+  a  b   <-- classified as\par
+ 17  3 |  a = 0\par
+  4 16 |  b = 1\par
+\par
+\par
+=== Re-evaluation on test set ===\par
+\par
+User supplied test set\par
+Relation:     Reuters-21578 Grain ModApte Test-weka.filters.unsupervised.attribute.NumericToBinary-weka.filters.unsupervised.instance.RemoveFolds-S0-N5-F1\par
+Instances:     unknown (yet). Reading incrementally\par
+Attributes:   2\par
+\par
+=== Predictions on user test set ===\par
+\par
+    inst#     actual  predicted error prediction\par
+        1        1:0        1:0       0.814 \par
+        2        1:0        2:1   +   0.744 \par
+        3        2:1        2:1       0.744 \par
+        4        1:0        2:1   +   0.744 \par
+        5        1:0        2:1   +   0.744 \par
+        6        2:1        2:1       0.744 \par
+        7        1:0        1:0       0.814 \par
+        8        1:0        1:0       0.857 \par
+        9        1:0        1:0       1 \par
+       10        1:0        1:0       0.786 \par
+       11        1:0        1:0       0.814 \par
+       12        1:0        1:0       0.933 \par
+       13        1:0        1:0       0.933 \par
+       14        1:0        1:0       0.814 \par
+       15        1:0        1:0       0.857 \par
+       16        1:0        1:0       0.786 \par
+       17        1:0        1:0       0.933 \par
+       18        1:0        2:1   +   0.744 \par
+       19        1:0        2:1   +   0.744 \par
+       20        1:0        1:0       0.875 \par
+       21        2:1        2:1       0.744 \par
+       22        2:1        2:1       0.744 \par
+       23        2:1        2:1       0.744 \par
+       24        2:1        2:1       0.744 \par
+       25        2:1        1:0   +   0.814 \par
+       26        2:1        2:1       0.744 \par
+       27        2:1        2:1       0.744 \par
+       28        2:1        2:1       0.744 \par
+       29        2:1        2:1       0.744 \par
+       30        2:1        2:1       0.744 \par
+       31        2:1        2:1       0.744 \par
+       32        2:1        2:1       0.744 \par
+       33        2:1        1:0   +   0.814 \par
+       34        2:1        2:1       1 \par
+       35        2:1        2:1       0.744 \par
+       36        2:1        2:1       0.744 \par
+       37        2:1        1:0   +   0.814 \par
+       38        2:1        2:1       1 \par
+       39        2:1        1:0   +   0.786 \par
+       40        2:1        2:1       0.744 \par
+\par
+=== Summary ===\par
+\par
+Correctly Classified Instances          31               77.5    %\par
+Incorrectly Classified Instances         9               22.5    %\par
+Kappa statistic                          0.5431\par
+Mean absolute error                      0.3207\par
+Root mean squared error                  0.4099\par
+Total Number of Instances               40     \par
+\par
+=== Detailed Accuracy By Class ===\par
+\par
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class\par
+                 0.722    0.182    0.765      0.722    0.743      0.544    0.816     0.780     0\par
+                 0.818    0.278    0.783      0.818    0.800      0.544    0.816     0.784     1\par
+Weighted Avg.    0.775    0.235    0.775      0.775    0.774      0.544    0.816     0.782     \par
+\par
+=== Confusion Matrix ===\par
+\par
+  a  b   <-- classified as\par
+ 13  5 |  a = 0\par
+  4 18 |  b = 1\par
+\par
+}
+ 
